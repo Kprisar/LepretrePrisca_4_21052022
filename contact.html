@@ -27,29 +27,34 @@
     
 </head>
 <body>
-<!-- Principal conteneur -->
-<div class="page-container">
-    
-<!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.webp" alt="atlanta web design logo" height="40" /></a>
+	<header>
+		<div class="bloc bgc-white l-bloc " id="bloc-0">
+			<div class="container bloc-sm">
+				<nav class="navbar row">
+					<div class="navbar-header">
+					<a class="navbar-brand" href="contact.html"><img src="img/agence-la-panthere-monochrome.svg" alt="logo La Panthère" height="40" width="216.88"/></a>
+					<label for="btn" class="icon">
+						<svg viewbox="0 0 100 80" width="40" height="40">
+							<rect width="100" height="15"></rect>
+							<rect y="35" width="100" height="15"></rect>
+							<rect y="70" width="100" height="15"></rect>
+						</svg>
+					</label>	
+					</div>
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a href="index.html">accueil</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</div>
+		</div>
+		</header>
 <!-- bloc-0 END -->
 
-<!-- bloc-6 -->
+<main>
 <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
@@ -76,28 +81,29 @@
 					<div class="form-group">
 						<label>
 							Nom
-						</label>
 						<input id="name" class="form-control" required />
+					</label>
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
-						</label>
 						<input id="email" class="form-control" type="email" required />
+					</label>
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
-						</label>
 						<input class="form-control" type="email" required id="input_504" />
+					</label>
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+					</label>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
+						<strong>Envoyer</strong>
 					</button>
 				</form>
 			</div>
@@ -109,14 +115,9 @@
 		</div>
 	</div>
 </div>
-<!-- bloc-7 END -->
+</main>
 
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
-
-
-<!-- Footer - bloc-8 -->
+<footer>
 <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
@@ -125,36 +126,17 @@
 					Agence La Panthère
 					<br>Agence de web design
 				</p>
-				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
-						</div>
-					</div>
+				
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-8 END -->
+
 
 </div>
-<!-- Principal conteneur END -->
+</footer>
+
     
 
 </body>
