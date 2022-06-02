@@ -691,7 +691,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -735,6 +735,7 @@ h4 {
 .white {
     color: #FFFFFF!important;
     text-align: center;
+    font-size: 18px;
 }
 
 .portfolio-thumb {
@@ -782,7 +783,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #F3976C!important;
     color: #FFFFFF!important;
 }
 
