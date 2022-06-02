@@ -90,17 +90,14 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.webp");
-    background-size: 280px 280px;
-}
+
 
 .b-parallax {
     background-attachment: fixed;
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: white;
 }
 
 .d-bloc button:hover {
@@ -133,7 +130,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -326,6 +323,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -652,11 +650,10 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+    text-decoration: none;
 }
 
-.container {
-    max-width: 1000px;
-}
+
 
 .hero-bloc-text {
     font-size: 38px;
@@ -681,7 +678,6 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -738,6 +734,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    text-align: center;
 }
 
 .portfolio-thumb {
@@ -775,7 +772,9 @@ h4 {
 
 .tc-white {
     color: white!important;
+    text-align: center;
 }
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
