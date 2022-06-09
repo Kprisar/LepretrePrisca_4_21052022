@@ -648,6 +648,7 @@ a {
     font-weight: 400;
     color: #575757!important;
     text-decoration: none;
+    font-size: 18px;
 }
 
 
@@ -733,6 +734,7 @@ h4 {
     color: #FFFFFF!important;
     text-align: center;
     font-size: 18px;
+    font-weight: 700;
 }
 
 .portfolio-thumb {
@@ -771,6 +773,7 @@ h4 {
 .tc-white {
     color: white!important;
     text-align: center;
+    font-weight: 700;
 }
 
 
