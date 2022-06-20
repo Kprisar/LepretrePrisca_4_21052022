@@ -226,6 +226,7 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
+    text-decoration: none;
 }
 
 .d-bloc .panel .a-btn:hover,
